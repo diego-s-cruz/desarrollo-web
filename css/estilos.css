@@ -66,7 +66,7 @@
     font-size: 26px;
     line-height: 26px;
     text-align: center;
-    background-color: yellow;
+    background-color: rgb(30, 255, 0);
     color: black;
     margin-bottom: 15px;
     display: block;
@@ -193,7 +193,7 @@ margin-bottom: 20px;
 
 #nuevos_lanzamientos {
     margin: auto;
-    background-color: yellow;
+    background-color: rgb(30, 255, 0);
     height: auto;
     padding-top: 50px;
     padding-bottom: 30px; 
