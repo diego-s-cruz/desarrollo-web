@@ -1,0 +1,267 @@
+@import 'seccion_home';
+@import 'seccion_noticias';
+@import 'seccion_artistas';
+@import 'seccion_catalogo';
+@import 'seccion_contacto';
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+.container nav{
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: black;  
+  }
+
+/* BODY */
+body{
+    background-color:#171515 ;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* PORTADA ROSA */
+
+.portada_artistas_3{
+    background-color:#f0cee5;
+    width: 70%;
+    margin: auto;
+    margin-top: 6rem;
+    display: flex;
+    flex-flow: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    text-align: center;
+    height: 550px; 
+}
+
+/* ESTILOS TEXTOS */
+
+.titulos_home{
+    text-align: center;
+    font-weight: 900;
+    font-size:1.5rem;
+    color: black;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    margin: auto;
+    max-width: 70%;
+    padding-top: 50px; 
+    padding-bottom: 25px;
+}
+
+.titulos_home_2{
+    text-align: center;
+    font-weight: 900;
+    font-size:1.5rem;
+    color: white;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin: auto;
+    max-width: 70%;
+    padding-top: 50px; 
+    padding-bottom: 25px;
+}
+
+.titulos_home_3{
+    text-align: center;
+    font-weight: 900;
+    font-size:1.5rem;
+    color: #f0cee5;
+    margin: auto;
+    max-width: 70%;
+    padding-top: 1rem; 
+}
+
+.titulo_noticia_home{
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    font-weight: 600;
+    font-size:1.8rem;
+    color: #f0cee5;
+    background-color:#171515;
+    padding: 8px;
+}
+
+.disco_tit{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.ultimas_not_tipo {
+    margin-top: 20px;
+    font-weight:bold;
+    font-size: .9rem;
+    color: #f0cee5;
+}
+
+.ultimas_not_tit {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.ultimas_not_fecha {
+    margin-top: 15px;
+    font-weight: lighter;
+    font-size: .8rem;
+}
+
+
+/* FOOTER */
+
+#pie-pagina{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#f0cee5;
+    padding: 0% 15% 0% 15%;
+    height: 100px;
+    border-top: .3rem
+     solid rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 1.8rem;
+    text-align: center; 
+    gap: 2rem;
+}
+
+.bi{
+    color: #171515;
+}
+
+/*///////////////////////////////////////////*/
+
+/*              ESTILOS RESPONSIVE           */
+
+/*///////////////////////////////////////////*/
+
+@media only screen and (max-width: 768px) {
+ 
+    #noticias_home_grid {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    .playlists{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin-bottom: 5%;
+    }
+
+    /* NOTICIAS PRINCIPALES HOME */
+
+    .notas_principales_home {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        align-content:center;
+        display: grid;
+        grid-template-areas:
+            "nota1"
+            "nota2"
+            "nota3";
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 20px;
+        column-gap: 20px;
+        justify-content:space-between;
+        max-width: 70%;
+        margin: auto;
+        justify-items: center;
+    }
+    
+    .notas_principales_home0 {
+        grid-area: nota1; 
+    }
+    
+    .notas_principales_home1 {
+        grid-area: nota2; 
+    }
+    
+    .notas_principales_home2 {
+        grid-area: nota3; 
+    }
+    
+    .notas_principales_home0 {
+        background-image: url(../media/noticia_destacada3.jpg);
+        background-size: cover;
+        width: 100%;
+        padding: 150px 30px 30px 30px;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .notas_principales_home1 {
+        background-image: url(../media/noticia_destacada5.jpg);
+        background-size: cover;
+        width: 100%;
+        padding: 150px 30px 30px 30px;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .notas_principales_home2 {
+        background-image: url(../media/noticia_destacada4.jpg);
+        background-size:cover;
+        width: 100%;
+        padding: 150px 30px 30px 30px;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .titulo_noticia_home{
+        position: absolute;
+        bottom: 30px;
+        left: 10px;
+        font-weight: 600;
+        font-size:1rem;
+        color: #f0cee5;
+        background-color:#171515;
+        padding: 8px;
+    }
+
+    #galeria_artistas2{
+        padding-top: 50px;
+        padding-bottom: 50px; 
+        align-content:center;
+        display: grid;
+        grid-template-columns: 1fr  ;
+        grid-template-rows: 1fr;
+        row-gap: 20px;
+        column-gap: 20px;
+        justify-content:space-between;
+        max-width: 70%;
+        margin: auto;
+        justify-items: center;
+    }
+
+    /* PRODUCTOS CATALOGO */
+
+#catalogo_grid{
+    padding-top: 50px;
+    padding-bottom: 50px; 
+    align-content:center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    row-gap: 40px;
+    column-gap: 20px;
+    justify-content:space-between;
+    max-width: 70%;
+    margin: auto;
+    justify-items: center;
+}
+}

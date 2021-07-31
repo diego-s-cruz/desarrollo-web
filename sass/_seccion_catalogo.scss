@@ -1,0 +1,147 @@
+/* PRODUCTOS CATALOGO */
+
+#catalogo_grid{
+    padding-top: 50px;
+    padding-bottom: 50px; 
+    align-content:center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr  ;
+    grid-template-rows: 1fr;
+    row-gap: 40px;
+    column-gap: 20px;
+    justify-content:space-between;
+    max-width: 70%;
+    margin: auto;
+    justify-items: center;
+    
+}
+
+.catalogo_grid_ind {
+    margin: 5px ;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    text-align: left;
+    color: white;
+    padding: 2rem;
+    border: 1px solid #f0cee5;
+    border-bottom: 3px solid #f0cee5 ;
+}
+
+.catalogo_grid_ind img{
+    width: 100%;
+    height: auto;
+    opacity: .5;
+}
+
+.catalogo_grid_ind  img:hover{
+    opacity: 1;
+}
+
+.catalogo_grid_precio{
+    margin-top: 15px;
+    font-weight: lighter;
+    font-size: 1rem;
+
+}
+
+.boton_comprar {
+    margin-top: 1rem;
+    background-color: #f0cee5;
+    width: 100px;
+    height: auto;
+    transition: all 1s;
+    color:#171515;
+    font-size: .8rem;
+    font-weight: bold;
+    padding: .5rem ;
+    text-align: center;
+}
+.boton_comprar:hover {
+    width: 130px;
+    height: auto;
+}
+
+.modal_img_disco{
+    width: 100px;
+}
+
+.modal_text_disco{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#accordion{
+    width: 70%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#myCarousel {
+    padding-top: 6rem;
+    width: 70%;
+    margin: auto;
+}
+
+.tit_carousel{
+    color: #171515;
+    font-weight: 900;
+    font-size:3rem;
+    position: absolute;
+    bottom: 8rem;
+    color: #f0cee5;
+    background-color:#171515;
+    padding: 10px 25px 10px 25px;
+    
+}
+
+.txt_carousel{
+    
+    font-weight: 600;
+    font-size:1.5rem;
+    color: white;
+}
+
+  /* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 32rem;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+ 
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+@media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  }

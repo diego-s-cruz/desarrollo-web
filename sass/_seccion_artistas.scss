@@ -1,0 +1,46 @@
+#galeria_artistas2{
+    padding-top: 50px;
+    padding-bottom: 50px; 
+    align-content:center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    justify-content:space-between;
+    max-width: 70%;
+    margin: auto;
+    justify-items: center;
+}
+
+.artistas_ind {
+    position: relative;
+    margin: 5px ;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    text-align: left;
+    color: white;
+}
+
+.artistas_ind img{
+    width: 100%;
+    height: auto;
+    opacity: .5;
+}
+
+.artistas_ind  img:hover{
+    opacity: 1;
+}
+
+.texto-encima{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-weight: 600;
+    font-size:1rem;
+    color: #f0cee5;
+    text-transform: uppercase;
+    background-color:#171515;
+    padding: 8px;
+}

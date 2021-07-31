@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <!-- CDN BOOSTRAP 4.6 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- CDN BOOSTRAP ICONOS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body style="background-color:#171515 ;">
+    <header>
+        <div class="container">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" style="color:#f0cee5;" href="./index.html">LAPTRA</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <!--<a class="nav-link active" href="./index.html">INICIO<span class="sr-only">(current)</span></a>-->
+                <a class="nav-link" href="./noticias.html">NOTICIAS</a>
+                <a class="nav-link" href="./artistas.html">ARTISTAS</a>
+                <a class="nav-link" href="./catalogo.html">CATALOGO</a>
+                <a class="nav-link active" href="./contacto.html">CONTACTO<span class="sr-only">(current)</span></a>
+              </div>
+            </div>
+          </nav></div>
+    </header>
+
+
+    <main> 
+    
+      <!-- portada 3 artistas -->
+      <div class="portada_artistas_3"> 
+        <div class="titulos_home">PORTADA SECCIÓN</div></div>
+
+        <!-- ULTIMAS NOTICIAS HOME -->
+        <div class="titulos_home_2">HOLA LAPTRA !!! </div>
+        
+        <!-- FORMULARIO -->
+        <div class="container" id="formulario">
+        <form>
+            <div class="form-group row">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Nombre</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="inputPassword3" class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword3">
+              </div>
+            </div>
+            <fieldset class="form-group row">
+              <legend class="col-form-label col-sm-2 float-sm-left pt-0">¿Tenes una banda?</legend>
+              <div class="col-sm-10">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                  <label class="form-check-label" for="gridRadios1">
+                    Si
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                  <label class="form-check-label" for="gridRadios2">
+                    No
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+              <div class="form-group row">
+                <label for="exampleFormControlTextarea1" class="col-sm-2 col-form-label">Mensaje</label>
+                <div class="col-sm-10">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+                  </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-sm-10 offset-sm-2">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                    <label class="form-check-label" for="gridCheck1">
+                      Quiero recibir el newsletter de LAPTRA
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+            <div class="form-group row">
+              <div class="col-sm-10 offset-sm-2">
+                <button type="submit" class="btn btn-primary">ENVIAR</button>
+              </div>
+            </div>
+          </form>
+          </div>
+
+        <!-- PLAYLISTS HOME -->
+        <section id="seccion_playlists">
+            <div class="titulos_home_2">PLAYLISTS</div>  
+            <div class="playlists">
+                <div class="playlists_ind">
+                    <iframe src="https://open.spotify.com/embed/playlist/1W8c1FNlvI3tAN9ZtisTeG" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
+                <div class="playlists_ind">
+                    <iframe src="https://open.spotify.com/embed/playlist/054FcqBZD6HsKNGtnRIVcw" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
+                <div class="playlists_ind">
+                    <iframe src="https://open.spotify.com/embed/playlist/07dLM1yz4yzo1GP4M0mEYl" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
+                </div>
+        </section>
+    </main>
+
+    <footer id="pie-pagina">
+      <a href="#"><i class="bi bi-facebook"></i></a>
+      <a href="#"><i class="bi bi-instagram"></i></a>
+      <a href="#"><i class="bi bi-twitter"></i></a>
+    </footer>
+
+
+    <!--BOOSTRAP 4.6 SCRIPT-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+</body>
+</html>

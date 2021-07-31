@@ -1,0 +1,181 @@
+/* BIENVENIDA */
+
+#bienvenida{
+    width: 70%;
+    margin: auto;
+    color: white;
+    height: 100vh;
+    padding-top: 6rem;
+    text-align: center;
+}
+
+#bienvenida img{
+width: 100%;
+height: 100%;
+}
+
+#home_icono{
+    color: #f0cee5;
+    font-size: 2rem;
+}
+
+/* NOTICIAS PRINCIPALES HOME */
+
+.notas_principales_home {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    align-content:center;
+    display: grid;
+    grid-template-areas:
+        "nota1 nota1 "
+        "nota2 nota3";
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 550px 450px;
+    row-gap: 20px;
+    column-gap: 20px;
+    justify-content:space-between;
+    max-width: 70%;
+    margin: auto;
+    justify-items: center;
+}
+
+.notas_principales_home0 {
+    grid-area: nota1; 
+}
+
+.notas_principales_home1 {
+    grid-area: nota2; 
+}
+
+.notas_principales_home2 {
+    grid-area: nota3; 
+}
+
+.notas_principales_home0 {
+    background-image: url(../media/noticia_destacada3.jpg);
+    background-size: cover;
+    position: relative;
+    margin: 5px ;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.notas_principales_home1 {
+    background-image: url(../media/noticia_destacada5.jpg);
+    background-size: cover;
+    position: relative;
+    margin: 5px ;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.notas_principales_home2 {
+    background-image: url(../media/noticia_destacada4.jpg);
+    background-size: cover;
+    position: relative;
+    margin: 5px ;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NUEVOS LANZAMIENTOS HOME */
+
+#nuevos_lanzamientos {
+    margin: 2rem auto;
+    background-color:#f0cee5;
+    height: auto;
+    padding-top: 0;
+    padding-bottom: 25px; 
+}
+
+.nuevos_lanzamientos_discos{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-flow: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    padding-top: 50px;
+}
+.nuevos_lanzamientos_discos_ind  img:hover {
+    opacity: 0.8;
+}
+
+.nuevos_lanzamientos_discos_ind {
+    width: 250px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 35px;
+}
+
+#nuevos_lanzamientos .nuevos_lanzamientos_discos img{
+    max-width:250px;
+    height: auto;
+}
+
+/* ULTIMAS NOTICIAS HOME*/
+
+#noticias_home_grid{
+    padding-top: 50px;
+    padding-bottom: 50px; 
+    align-content:center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr;
+    row-gap: 40px;
+    column-gap: 20px;
+    justify-content:space-between;
+    max-width: 70%;
+    margin: auto;
+    justify-items: center;
+}
+
+.ultimas_noticias_ind {
+    margin: 5px ;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    text-align: left;
+    color: white;
+}
+
+.ultimas_noticias_ind img{
+    width: 100%;
+    height: auto;
+    opacity: .5;
+}
+
+.ultimas_noticias_ind  img:hover{
+    opacity: 1;
+}
+
+/* PLAYLISTS TODAS LAS SECCIONES */
+
+.playlists{
+    padding-top: 50px;
+    padding-bottom: 50px; 
+    align-content:center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr;
+    row-gap: 40px;
+    column-gap: 20px;
+    justify-content:space-between;
+    max-width: 70%;
+    margin: auto;
+    justify-items: center;
+}
+
+.playlists_ind {
+    width: 100%;
+}
